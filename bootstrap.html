@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+</style>
 <body>
-	<!-- header start -->
-		<h1>BASIC BOOTSTRAP TABLE</h1>
+	<div class="container">
+		<!-- header start -->
+		<center><h1>BASIC BOOTSTRAP TABLE</h1></center>
+		<br>
 	<!-- header end -->
 
 	<!-- Table -->
-	<table>
+	<table class="table table-bordered">
 		<thead>
 			<tr>
 				<th>FirstName</th> <th>LastName</th> <th>Email</th>
@@ -32,11 +46,11 @@
 	<!-- Table end -->
 
 	<!-- Footer -->
-	<div>
-		<footer>
-			<p> Developed By Mark Macharia &copy; 2018</p>
-		</footer>
-	</div>
+	<div class="footer">
+          <p>Developed By Mark Macharia © 2018</p>
+    </div>
 <!-- Footer end -->
+	</div>
+	
 </body>
 </html>

@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none; /*no symbol before list word*/
+    margin: 0; /*create space around elements*/
+    padding: 0; /*create space around elements content*/
+    overflow: hidden;/* overflow clipped rest content hidden*/
+    background-color: grey; /*backround colour of an element*/
+}
+
+li {
+    float: left;/* position of element in container*/
+}
+
+li a {
+    display: block; /*element is displayed as block*/
+    color: white;/* represents RGB color space*/
+    text-align: center; /*words are in the center*/
+    padding: 20px 16px; /*create space around elements content*/
+    text-decoration: none; /*appearance of decorative text*/
+
+li a:hover { /*mouse over them select elements*/
+    background-color: #111; /*backround colour of an element*/
+}
+
+
+.footer { /*last part of a page*/
+   position: fixed;
+   left: 0;/* /left distance of footer */
+   bottom: 0;*/ /*position of element*/
+   width: 100%; /*sets width of element*/
+   background-color: grey;/*backround colour of an element*/
+   color: white; /* represents RGB color space*/
+   text-align: center; /*words are in the center*/
+}
